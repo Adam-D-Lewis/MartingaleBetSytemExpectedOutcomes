@@ -4,6 +4,8 @@ I was curious what the expected outcomes were of using it in Roulette, so I calc
 
 The idea is you play roulette, betting on red each time.  You double your bet each time you lose, and you only reset your bet to the original value once you win.  Seems like a sure thing, but let's calculate the expected outcomes.  That fact that tables have min and max bet limits throws a wrench in things.
 
+The expected outcome is how much on average you will lose or win each "set" where you play until you have either won, or can no longer increase bet by your increase factor without exceeding the table max bet limit.
+
 This code lets you vary the amount you increase your bet by as well (rather than only doubling your bet, you could increase by 1.05 for example), as well as changing your initial bet amount.
 
 ## Getting Started
