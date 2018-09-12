@@ -15,11 +15,11 @@ The monteCarloRouletteSim.py file was used to validate the results of the main.p
 
 ## Results
 The results are included here for convenience.
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![Results](https://raw.githubusercontent.com/balast/MartingaleBetSytemExpectedOutcomes/MartingaleResults.JPG)
 
 ## Authors
 
-* **Adam Lewis** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Adam Lewis** - *Initial work* 
 
 ## License
 
