@@ -15,7 +15,7 @@ The monteCarloRouletteSim.py file was used to validate the results of the main.p
 
 ## Results
 The results are included here for convenience.
-![Results](https://raw.githubusercontent.com/balast/MartingaleBetSytemExpectedOutcomes/MartingaleResults.JPG)
+![Results](./MartingaleResults.JPG)
 
 ## Authors
 
