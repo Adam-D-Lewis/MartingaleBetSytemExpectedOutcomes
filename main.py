@@ -5,7 +5,7 @@ from mpl_toolkits.mplot3d import Axes3D
 
 pW = 0.48
 pL = 1-pW
-b_max = 500
+b_max = 500 #max bet ($)
 
 def total_losses(b0, f, num_losses):
     sum=0
@@ -31,12 +31,12 @@ def expected_outcome(b0, f, printN=False):
     expectation = pW*sum - pL**N*total_losses(b0, f, N)
     return expectation
 
-b0 = 481.00
-f = 1.01
-print(expected_outcome(b0, f, 0))
+# b0 = 481.00
+# f = 1.01
+# print(expected_outcome(b0, f, 0))
 
-b0 = np.arange(1, 500, 1)
-f = np.arange(1.01, 5, 0.1)
+b0 = np.arange(1, 500, 1)  # initial bets
+f = np.arange(1.01, 5, 0.1)  # bet increase factor (=2 in typical Martingale System)
 b0, f = np.meshgrid(b0, f)
 
 results=[]
