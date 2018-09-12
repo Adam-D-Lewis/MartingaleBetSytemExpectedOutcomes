@@ -23,6 +23,11 @@ The monteCarloRouletteSim.py file was used to validate the results of the main.p
 The results are included here for convenience.
 ![Results](./MartingaleResults.JPG)
 
+As can be seen, all expected outcomes are negative for the player.  The "steps" in the plot come from the fact that you will play a different number of games based on your initial bet amount and your bet increase factor.  
+```
+If your initial bet is $500 and the max table limit is $500.  You will play only a single game.  The expected outcome is your (win proabability-loss probability) * the bet amount (0.48-0.52)*500=-$20 which agrees with the results shown in the plot.
+```
+
 ## Authors
 
 * **Adam Lewis** - *Initial work* 
