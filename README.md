@@ -13,6 +13,10 @@ the max and min bet amounts.
 
 The monteCarloRouletteSim.py file was used to validate the results of the main.py script.
 
+## Results
+The results are included here for convenience.
+![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+
 ## Authors
 
 * **Adam Lewis** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
